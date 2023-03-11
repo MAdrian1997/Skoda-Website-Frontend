@@ -22,7 +22,7 @@ async function afisareDate() {
   const spinner = document.getElementsByClassName("spinner-border")[0];
   try {
     const raspunsDeLaServer = await fetch(
-      "http://localhost:3002/afiseaza-produse"
+      "https://skoda-website-backend.onrender.com/afiseaza-produse"
     );
     const raspunsCaJson = await raspunsDeLaServer.json();
     for (let i = 0; i < raspunsCaJson.length; i++) {

@@ -51,7 +51,7 @@ const buttonClick = function buttonClick() {
     body: JSON.stringify(formData),
   };
 
-  fetch("http://localhost:3002/contact", requestOptions)
+  fetch("https://skoda-website-backend.onrender.com/contact", requestOptions)
     .then((response) => response.text())
     .then((result) => console.log(result))
     .catch((error) => console.log("error", error));
