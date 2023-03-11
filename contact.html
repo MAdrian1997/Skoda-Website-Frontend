@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="./style/contact-style.css"
+      id="contact-style"
+    />
+    <link rel="stylesheet" href="./style/style.css" id="style" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid container-nvb">
+        <a class="navbar-brand" href="https://www.skoda.ro/"
+          ><img
+            src="img/Skoda-Logo-PNG-Clipart.png"
+            alt="logo-skoda"
+            width="90"
+        /></a>
+        <a class="navbar-brand">Skoda</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html"
+                >Acasa</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="istorie.html">Istorie</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="modele.html">Modele</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <div class="btn-group">
+            <button
+              class="btn btn-secondary btn-sm dropdown-toggle btncolor"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Culoare paginii
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item coursor" id="darkmode">Negru</a></li>
+              <li><a class="dropdown-item coursor" id="whitemode">Alb</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid container-design">
+      <div class="row">
+        <img class="contactimg" src="./img/contacts.jpg" alt="contacts" />
+      </div>
+    </div>
+    <form class="row g-3 needs-validation" novalidate>
+      <section class="contact-container">
+        <div class="container-fluid form">
+          <div class="row">
+            <div class="mb-3">
+              <label for="contact-name" class="form-label">Nume</label>
+              <input
+                type="text"
+                class="form-control"
+                id="contact-name"
+                placeholder="Scrie nume aici"
+                required
+              />
+              <div class="valid-feedback">Numele este okei!</div>
+              <div class="invalid-feedback">Trebuie sa scrieti un nume!</div>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Prenume</label>
+              <input
+                type="text"
+                class="form-control"
+                id="contact-prenume"
+                placeholder="Scrie prenume aici"
+                required
+              />
+              <div class="valid-feedback">Prenumele este okei!</div>
+              <div class="invalid-feedback">Trebuie sa scrieti un prenume!</div>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="contact-email"
+                placeholder="Scrie aici email"
+                required
+              />
+              <!-- <p class="emailparagraph" id="obligatoriu">
+                *Email-ul este obligatoriu
+              </p>
+              <p class="emailparagraph" id="incorect">
+                *Email-ul trebuie sa contina @
+              </p> -->
+              <div class="valid-feedback">Email-ul este completat bine!</div>
+              <div class="invalid-feedback">
+                Trebuie sa completati un email.
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label"
+                >Scrie-ne aici cu ce te putem ajuta</label
+              >
+              <textarea
+                class="form-control"
+                id="contact-textarea"
+                rows="3"
+                required
+              ></textarea>
+              <div class="valid-feedback">Mesajul este scris bine!</div>
+              <div class="invalid-feedback">Trebuie sa scrieti un mesaj!</div>
+            </div>
+            <div class="form-check checkbutton">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="invalidCheck"
+                  required
+                />
+                <label class="form-check-label" for="invalidCheck">
+                  Vă asigurăm că datele de contact transmise de dumneavoastră
+                  sunt stocate exclusiv pentru a vă oferi răspunsurile și
+                  informațiile solicitate şi nu vor fi comunicate terţilor. Mai
+                  multe detalii regăsiți în Protecția datelor.
+                </label>
+                <div class="invalid-feedback">
+                  Trebuie sa accepti termeni si conditiile!
+                </div>
+              </div>
+            </div>
+
+            <button
+              type="submit"
+              class="btn btn-secondary btncontact"
+              id="submit-button"
+            >
+              Trimite solicitarea!
+            </button>
+          </div>
+        </div>
+      </section>
+    </form>
+
+    <!--Footer-->
+    <footer class="footer footerstyle" id="footerStyle">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 col-lg-3"></div>
+          <div class="col-sm-12 col-lg-9 favicon">
+            <a href="https://www.facebook.com/SKODA.ro">
+              <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i
+            ></a>
+            <a href="https://www.instagram.com/skoda_romania/">
+              <i class="fa fa-instagram fa-3x" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>
+        <p class="quote">&copy; ŠKODA România 2023</p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/js-contact.js"></script>
+  </body>
+</html>

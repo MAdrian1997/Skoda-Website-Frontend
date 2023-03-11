@@ -1,0 +1,92 @@
+body {
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+/* Navbar */
+.container-nvb {
+  background-color: rgb(244, 244, 242);
+}
+.navbar {
+  margin-top: -8px;
+  font-size: 1.2rem;
+  padding-bottom: inherit;
+}
+.navbar-brand {
+  color: #000;
+}
+.btn-search {
+  background-color: rgb(73, 84, 100);
+  color: #fff;
+}
+.btn-search:hover {
+  background-color: rgb(247, 237, 219);
+  color: #000;
+}
+.nav-link:hover {
+  background-color: rgb(187, 191, 202);
+  border-radius: 5%;
+}
+.dropdown-item:hover {
+  background-color: rgb(204, 214, 166);
+}
+.btncolor {
+  background-color: rgb(191, 219, 56);
+  border: none;
+  color: #fff;
+}
+.btoncolor:hover {
+  background-color: rgb(187, 191, 202);
+}
+.coursor {
+  cursor: default;
+}
+.coursor:hover {
+  background-color: rgb(187, 191, 202);
+}
+/* Footer */
+.footerstyle {
+  background-color: rgb(73, 84, 100);
+}
+
+.footerimg {
+  padding: 15px;
+  max-width: 15px;
+}
+footer {
+  margin-bottom: -16px;
+}
+.fa {
+  margin: 10px;
+}
+.fa-facebook-square {
+  color: #3b5998;
+}
+.fa-google-plus-square {
+  color: #c32f10;
+}
+.fa-instagram {
+  color: #fff;
+}
+.quote {
+  text-align: center;
+}
+.favicon {
+  display: block;
+  margin: auto;
+  padding-left: 21.5%;
+}
+@media only screen and (max-width: 680px) {
+  .imagecarousel {
+    width: 500px;
+    height: 250px;
+  }
+  .lgsec2navbar {
+    display: block;
+    margin: auto;
+  }
+  .favicon {
+    display: block;
+    padding-left: 37%;
+  }
+}

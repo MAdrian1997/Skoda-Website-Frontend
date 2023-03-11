@@ -1,0 +1,155 @@
+/* Header */
+header {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(107, 114, 142);
+}
+
+.headershot-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 6rem 0;
+}
+
+.headshoot {
+  border-radius: 50%;
+  max-width: 300px;
+  width: 100%;
+}
+
+.services,
+.contact-container {
+  background-color: rgb(64, 66, 88);
+  padding: 4rem 1rem;
+}
+
+.media-object {
+  display: flex;
+  align-items: center;
+  padding: 4rem 1rem;
+}
+.icon-left,
+.icon-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  width: 90%;
+}
+.icon1 {
+  margin-bottom: 10px;
+}
+
+.section-wrapper-right,
+.section-wrapper-left {
+  flex: 1;
+}
+.icon-left,
+.section-wrapper-left {
+  order: 1;
+}
+
+.icon-right,
+.section-wrapper-right {
+  order: 2;
+}
+.icon-2img {
+  width: 80%;
+}
+.icon-img {
+  width: 82%;
+}
+.section-wrapper {
+  flex: 1;
+}
+
+.section-header {
+  font-size: 24px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.section-info {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
+.section-infohide {
+  color: #fff;
+  font-size: 18px;
+}
+.btnLeanrMoreHystory {
+  background-color: rgb(107, 114, 142);
+  color: #fff;
+  margin: auto;
+  display: block;
+}
+.btnLeanrMoreHystory:hover {
+  background-color: #fff;
+  color: #000;
+}
+#learnMoreHistory {
+  display: none;
+}
+/* Logo */
+.logo {
+  background-color: rgb(71, 78, 104);
+}
+.section1-header {
+  text-align: center;
+  padding: 6rem 0 4rem;
+}
+.logo-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.logo-objects {
+  max-width: 280px;
+  margin: 1rem 50px;
+  text-align: center;
+}
+
+.logo-box {
+  width: 280px;
+  height: 250px;
+  transition: 0.2s ease-in-out;
+}
+.logo5 {
+  max-width: 85%;
+}
+
+.logo-box:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+.logoimg {
+  width: 280px;
+  /* height: 250px; */
+}
+@media (max-width: 768px) {
+  .media-object {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+  .icon-right,
+  .icon-left {
+    order: 2;
+  }
+  .section-wrapper-left,
+  .section-wrapper-right {
+    order: 1;
+    /* padding-top: 2rem;
+      padding-bottom: 2rem; */
+  }
+}
+@media (max-width: 599px) {
+  .logo-wrapper {
+    justify-content: center;
+  }
+}

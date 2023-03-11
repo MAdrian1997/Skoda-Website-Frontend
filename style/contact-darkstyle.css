@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(107, 114, 142);
+  font-family: "Times New Roman", Times, serif;
+}
+/* Container */
+.container-design {
+  max-width: 85%;
+  margin-top: 25px;
+}
+.contactimg {
+  display: block;
+  margin: auto;
+  border-radius: 2%;
+}
+/* Contact section */
+.contact-container {
+  max-width: 760px;
+  width: 100%;
+  margin: auto;
+}
+.form {
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+.form-control {
+  max-width: 800px;
+  width: 100%;
+  background-color: #fff;
+  color: #292b2c;
+  border-radius: 2px;
+  border: 1px solid #ced4da;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-clip: padding-box;
+  display: block;
+}
+.btncontact {
+  max-width: 25%;
+  display: block;
+  margin: auto;
+  background-color: rgb(64, 66, 88);
+}
+.checkbutton {
+  text-align: center;
+  margin-bottom: 50px;
+}
+/* Mobile */
+@media only screen and (max-width: 680px) {
+  .container-design {
+    max-width: 100%;
+    margin-top: 25px;
+  }
+  .btncontact {
+    max-width: 45%;
+  }
+  .lgsec2navbar {
+    display: block;
+    margin: auto;
+  }
+}

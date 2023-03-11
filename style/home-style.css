@@ -1,0 +1,78 @@
+/* // Section 2 */
+.textcircle {
+  text-align: center;
+  margin-top: 5%;
+  display: block;
+}
+
+.sectionLight {
+  background-color: #fbfbfd;
+  padding: 2rem;
+  padding-bottom: 10rem;
+}
+
+.carouseledit {
+  margin: auto;
+}
+.imagecarousel {
+  width: 700px;
+  height: 450px;
+}
+/* Section 3 */
+.philosofy {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.paragraph {
+  font-size: 1.3rem;
+}
+#learnMore {
+  display: none;
+}
+.darkSection {
+  background-color: #f2f2f2;
+  padding: 2rem;
+}
+
+.coolStuffBtn {
+  margin-top: 20px;
+}
+
+button.coolStuffBtn {
+  background-color: rgb(191, 219, 56);
+  color: #fff;
+  margin: auto;
+  display: block;
+}
+
+button.coolStuffBtn:hover {
+  background-color: #fff;
+  color: #000;
+}
+.btnLeanrMore {
+  background-color: rgb(191, 219, 56);
+  color: #fff;
+  border: none;
+}
+.btnLeanrMore:hover {
+  background-color: #fff;
+  color: #000;
+}
+.logohistory {
+  display: block;
+  margin: auto;
+}
+.prfmodal {
+  text-align: center;
+  font-size: 1.3rem;
+}
+@media only screen and (max-width: 680px) {
+  .logohistory {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .sectionLight {
+    margin-top: 0px;
+  }
+}
