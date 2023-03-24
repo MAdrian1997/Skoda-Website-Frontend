@@ -70,6 +70,9 @@ button.coolStuffBtn:hover {
   .logohistory {
     max-width: 100%;
   }
+  .imagecarousel {
+  height: 230px;
+}
 }
 @media only screen and (max-width: 768px) {
   .sectionLight {
