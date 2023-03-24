@@ -70,10 +70,18 @@ button.coolStuffBtn:hover {
     .imagecarousel {
   height: 230px;
 }
+  .btnLearnMore {
+    display: block;
+    margin: auto;
+  }
 
 }
   @media only screen and (max-width: 768px) {
   .sectionLight {
     margin-top: 0px;
+  }
+      .btnLearnMore {
+    display: block;
+    margin: auto;
   }
 }
