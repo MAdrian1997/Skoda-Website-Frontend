@@ -55,6 +55,7 @@ button.coolStuffBtn:hover {
   border: none;
   display:block;
   margin:auto;
+  margin-bottom: 25px;
 }
 .btnLeanrMore:hover {
   background-color: #fff;
@@ -87,5 +88,6 @@ button.coolStuffBtn:hover {
     .btnLearnMore {
     display: block;
     margin: auto;
+        margin-bottom: 25px;
   }
 }
