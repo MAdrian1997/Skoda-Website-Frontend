@@ -70,4 +70,10 @@ button.coolStuffBtn:hover {
     .imagecarousel {
   height: 230px;
 }
+
+}
+  @media only screen and (max-width: 768px) {
+  .sectionLight {
+    margin-top: 0px;
+  }
 }
