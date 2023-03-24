@@ -53,6 +53,8 @@ button.coolStuffBtn:hover {
   background-color: rgb(191, 219, 56);
   color: #fff;
   border: none;
+  display:block;
+  margin:auto;
 }
 .btnLeanrMore:hover {
   background-color: #fff;
@@ -73,7 +75,7 @@ button.coolStuffBtn:hover {
   .imagecarousel {
   height: 230px;
 }
-    .btnLearnMore {
+    .btnLeanrMore {
     display: block;
     margin: auto;
   }
