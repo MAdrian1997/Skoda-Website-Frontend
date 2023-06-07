@@ -1,1 +1,1 @@
-For this project I used HTML, CSS, Javascript, Node.js
+For this project I used HTML, CSS, Javascript, Node.js, Bootstrap
